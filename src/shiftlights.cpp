@@ -1,4 +1,3 @@
-#include <shiftlights.h>
 
 void evaluate_shiftlight_display(const CAN_message_t &KCAN_Received_Msg)
 {

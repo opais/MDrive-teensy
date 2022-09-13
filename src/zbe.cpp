@@ -1,5 +1,3 @@
-#include <zbe.h>
-
 void send_zbe_wakeup()
 {
   CAN_message_t msgKcan_out;

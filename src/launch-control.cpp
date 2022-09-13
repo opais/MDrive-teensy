@@ -1,5 +1,3 @@
-#include <launch-control.h>
-
 void evaluate_lc_display()
 {
   if (RPM >= LC_RPM_MIN && RPM <= LC_RPM_MAX) {

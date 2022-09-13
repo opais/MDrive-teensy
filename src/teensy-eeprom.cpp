@@ -1,5 +1,6 @@
-#include <teensy-eeprom.h>
 #include <EEPROM.h>
+
+
 
 void read_settings_from_eeprom()
 {
@@ -17,7 +18,6 @@ void read_settings_from_eeprom()
   mdrive_message[1] = mdrive_dsc - 2;                      // Difference between iDrive settting and MDrive CAN message (off) is always 2. 0x1 unchanged, 0x5 off, 0x11 MDM, 0x9 On
   mdrive_message[2] = mdrive_power;                        // Copy POWER as is.
   mdrive_message[3] = mdrive_edc;                          // Copy EDC as is.
-  
   if (mdrive_svt == 0xE9) {
       mdrive_message[4] = 0x41;                            // SVT normal, MDrive off.
   } else if (mdrive_svt == 0xF1) {

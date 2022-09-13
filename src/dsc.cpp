@@ -1,5 +1,3 @@
-#include <dsc.h>
-
 void evaluate_dsc_ign_status(const CAN_message_t &KCAN_Received_Msg)
 {
   if (dsc_program_last_status_can != KCAN_Received_Msg.buf[1]) {

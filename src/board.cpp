@@ -1,7 +1,11 @@
-#include <board.h>
+#include <FlexCAN_T4.h>
+
+CAN_message_t PTCAN_Received_Msg;
+CAN_message_t KCAN_Received_Msg;
 
 FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> PTCAN;
 FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> KCAN;
+
 
 void initialise_can_controllers()
 {

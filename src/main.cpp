@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include <main.h>
 
 #include <board.cpp>
