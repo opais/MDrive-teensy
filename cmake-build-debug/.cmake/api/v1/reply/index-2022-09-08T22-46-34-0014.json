@@ -1,0 +1,108 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/Users/octavianpais/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/bin/cmake",
+			"cpack" : "/Users/octavianpais/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/bin/cpack",
+			"ctest" : "/Users/octavianpais/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/bin/ctest",
+			"root" : "/Users/octavianpais/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 23,
+			"patch" : 2,
+			"string" : "3.23.2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-e09dc2a06a2606577f26.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-34beebae2c80c28da2cc.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-c5efb2feffa8e46643b3.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-c8f0cb90d0c513f99ce2.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-34beebae2c80c28da2cc.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1" : 
+		{
+			"jsonFile" : "cmakeFiles-v1-c5efb2feffa8e46643b3.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-e09dc2a06a2606577f26.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		"toolchains-v1" : 
+		{
+			"jsonFile" : "toolchains-v1-c8f0cb90d0c513f99ce2.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	}
+}

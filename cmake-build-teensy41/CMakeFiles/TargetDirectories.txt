@@ -1,0 +1,5 @@
+/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-teensy41/CMakeFiles/Production.dir
+/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-teensy41/CMakeFiles/Debug.dir
+/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-teensy41/CMakeFiles/Z_DUMMY_TARGET.dir
+/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-teensy41/CMakeFiles/edit_cache.dir
+/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-teensy41/CMakeFiles/rebuild_cache.dir

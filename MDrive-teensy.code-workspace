@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tpp": "cpp",
+			"flexcan_t4.h": "c",
+			"circular_buffer.h": "c",
+			"*.tcc": "c",
+			"arduino.h": "c",
+			"algorithm": "cpp",
+			"imxrt_flexcan.h": "c",
+			"array": "cpp",
+			"string": "cpp"
+		}
+	}
+}

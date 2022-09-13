@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MDrive-teensy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/.DS_Store">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/FlexCAN_T4.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/FlexCAN_T4.tpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/FlexCAN_T4FD.tpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/FlexCAN_T4FDTimings.tpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/circular_buffer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/BiDirectionalForward/BiDirectionalForward.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/CAN2.0_example_FIFO_with_interrupts.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/CAN2.0_example_FIFO_with_interrupts/CAN2.0_example_FIFO_with_interrupts.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/beta_sample/beta_sample.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/isotp_example_send_receive/isotp_example_send_receive.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/isotp_server_example/isotp_server_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/isotp_server_multiple_buffers_to_individual_busses_example/isotp_server_multiple_buffers_to_individual_busses_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/mailbox_filtering_example_with_interrupts/mailbox_filtering_example_with_interrupts.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/examples/read_two_channels/read_two_channels.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/imxrt_flexcan.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/isotp.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/isotp.tpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/isotp_server.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/isotp_server.tpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/FlexCAN_T4/kinetis_flexcan.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/SPI/SPI.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/SPI/SPI.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/SPI/examples/BarometricPressureSensor/BarometricPressureSensor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/SPI/examples/DigitalPotControl/DigitalPotControl.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/SPI/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/SPI/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/.DS_Store">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ILI9341_fonts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3_font_Arial.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3_font_Arial.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3_font_ArialBold.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3_font_ArialBold.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3_font_ComicSansMS.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3_font_ComicSansMS.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3_font_OpenSans.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7735_t3_font_OpenSans.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7789_t3.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/ST7789_t3.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/cat.bmp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/docs/issue_template.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/ILI_Ada_FontTest4/ILI_Ada_FontTest4.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/ST7735_t3_multiple/ST7735_t3_multiple.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/SpeedTest/SpeedTest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/TFT_String_Align/TFT_String_Align.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/graphicstest/graphicstest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/rotationtest/rotationtest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/scrollTest/scrollTest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/shieldtest/shieldtest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/spitftbitmap/spitftbitmap.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/config.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/catEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/defaultEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/doeEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/dragonEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/goatEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/logo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/naugaEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/newtEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/noScleraEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/owlEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/graphics/terminatorEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes7735/uncannyEyes7735.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/config.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/catEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/defaultEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/default_large.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/doeEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/dragonEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/goatEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/logo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/naugaEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/newtEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/noScleraEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/owlEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/graphics/terminatorEye.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/examples/uncannyEyes_async_st7789_240x240/uncannyEyes_async_st7789_240x240.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/flowers.bmp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/fonts.zip">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/glcdfont.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/lib/ST7735_t3/parrot.bmp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/.DS_Store">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/.vscode/c_cpp_properties.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/Readme-info.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/board-functions.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/dsc-functions.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/launch-control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/main.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/main.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/mdrive-functions.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/misc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/screen.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/shiftlights.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/src/zbe.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/octavianpais/Documents/PlatformIO/Projects/MDrive-teensy/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
