@@ -1,3 +1,26 @@
+#include <Arduino.h>
+#include <globals.h>
+
+const uint32_t START_UPSHIFT_WARN_RPM = 3500*4;
+const uint32_t MID_UPSHIFT_WARN_RPM = 4000*4;
+const uint32_t MAX_UPSHIFT_WARN_RPM = 4500*4;
+const uint32_t VAR_REDLINE_OFFSET_RPM = -300;
+
+uint32_t START_UPSHIFT_WARN_RPM_ = START_UPSHIFT_WARN_RPM;
+uint32_t MID_UPSHIFT_WARN_RPM_ = MID_UPSHIFT_WARN_RPM;
+uint32_t MAX_UPSHIFT_WARN_RPM_ = MAX_UPSHIFT_WARN_RPM;
+
+bool shiftlights_segments_active = false;
+byte shiftlights_start[] = {0x86, 0x3E};
+byte shiftlights_mid_buildup[] = {0xF6, 0};
+byte shiftlights_startup_buildup[] = {0x56, 0};
+byte shiftlights_max_flash[] = {0x0A, 0};
+byte shiftlights_off[] = {0x05, 0};
+
+uint8_t ignore_shiftlights_off_counter = 0;
+uint32_t var_redline_position;
+uint8_t last_var_rpm_can = 0;
+char serial_debug_string[128];
 
 void evaluate_shiftlight_display(const CAN_message_t &KCAN_Received_Msg)
 {
@@ -56,7 +79,7 @@ void activate_shiftlight_segments(uint8_t* data)
 }
 
 
-void evaluate_shiftlight_sync()
+void evaluate_shiftlight_sync(const CAN_message_t &PTCAN_Received_Msg)
 {
   if (!engine_warmed_up) {
     if (PTCAN_Received_Msg.buf[0] != last_var_rpm_can) {
@@ -97,8 +120,7 @@ void deactivate_shiftlight_segments()
       for ( uint8_t i = 0; i < sizeof(shiftlights_off); i++ ) {
         msgPTcan_out.buf[i] = shiftlights_off[i];
       }
-      PTCAN.write(msgPTcan_out);                                                                  
-      shiftlights_segments_active = true;
+      sendPTCanMessage(msgPTcan_out.id, msgPTcan_out.buf);                                 
                                                                                     
       shiftlights_segments_active = false;
       #if DEBUG_MODE
@@ -108,4 +130,14 @@ void deactivate_shiftlight_segments()
       ignore_shiftlights_off_counter--;
     }
   }
+}
+
+void reset_shiftlights_runtime_vars()
+{
+  shiftlights_segments_active = engine_warmed_up = false;
+  ignore_shiftlights_off_counter = 0;
+  last_var_rpm_can = 0;
+  START_UPSHIFT_WARN_RPM_ = START_UPSHIFT_WARN_RPM;
+  MID_UPSHIFT_WARN_RPM_ = MID_UPSHIFT_WARN_RPM;
+  MAX_UPSHIFT_WARN_RPM_ = MAX_UPSHIFT_WARN_RPM;
 }

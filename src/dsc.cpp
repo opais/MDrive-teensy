@@ -1,3 +1,15 @@
+#include <Arduino.h>
+#include <globals.h>
+
+uint8_t dtc_button_pressed[] = {0xFD, 0xFF};
+uint8_t dtc_button_released[] = {0xFC, 0xFF};
+uint8_t dsc_off_fake_cc_status[] = {0x40, 0x24, 0, 0x1D, 0xFF, 0xFF, 0xFF, 0xFF};
+uint8_t mdm_fake_cc_status[] = {0x40, 0xB8, 0, 0x45, 0xFF, 0xFF, 0xFF, 0xFF};
+uint8_t mdm_fake_cc_status_off[] = {0x40, 0xB8, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+uint8_t dsc_program_last_status_can = 0xEA;
+unsigned long vehicle_awake_timer;
+unsigned long sending_dsc_off_timer;
+
 void evaluate_dsc_ign_status(const CAN_message_t &KCAN_Received_Msg)
 {
   if (dsc_program_last_status_can != KCAN_Received_Msg.buf[1]) {
